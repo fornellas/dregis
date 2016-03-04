@@ -6,8 +6,12 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    agita (0.4.0)
     diff-lcs (1.2.5)
     docile (1.1.5)
+    gem_polisher (0.4.10)
+      agita (~> 0.1)
+      semantic (~> 1.4, >= 1.4.1)
     json (1.8.3)
     rake (10.5.0)
     rdoc (4.2.2)
@@ -25,6 +29,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
+    semantic (1.4.1)
     simplecov (0.11.2)
       docile (~> 1.1.0)
       json (~> 1.8)
@@ -36,6 +41,7 @@ PLATFORMS
 
 DEPENDENCIES
   dregis!
+  gem_polisher (~> 0.4, >= 0.4.10)
   rake (~> 10.4)
   rdoc (~> 4.2)
   rspec (~> 3.4)

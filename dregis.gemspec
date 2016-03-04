@@ -15,5 +15,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake', '~>10.4'
   s.add_development_dependency 'rdoc', '~>4.2'
   s.add_development_dependency 'rspec', '~>3.4'
+  s.add_development_dependency 'gem_polisher', '~>0.4', '>=0.4.10'
   s.add_development_dependency 'simplecov', '~>0.11', '>=0.11.1'
 end
